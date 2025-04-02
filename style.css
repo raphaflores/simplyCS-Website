@@ -44,6 +44,18 @@ nav ul li a {
     padding: 20px;
 }
 
+.cabinet-photos img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cabinet-photos img:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 footer {
     background-color: #003366;
     color: #fff;
